@@ -8,7 +8,7 @@
 3. Angel's taste is kind of similar to mine in the sense that they like to play some shooting games or top-down games, though they are not what I'm most drawn to. However, I still find these games plenty fun and interesting!!!
 
 ### Activity 2
-<img width="960" height="720" alt="jess tran (gdim 33) - vertical slice breakdown" src="https://github.com/user-attachments/assets/3689c230-b0b0-4ee5-be37-a4ddce4541c4" />
+![jess tran (gdim 33) - vertical slice breakdown](https://github.com/user-attachments/assets/27132741-7909-4a49-812f-bf8f351fe804)
 
 
 ## W2
