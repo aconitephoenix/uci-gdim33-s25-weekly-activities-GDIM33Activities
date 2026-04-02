@@ -5,7 +5,7 @@
 
 1. The patterns that I see in the things that I've currently chosen to add to my inspiration board are kind of a psychological factor and self/mutual destruction. I've always found myself really interested in visual novels, especially psychological horror, because I feel like those kinds of stories are the ones that hit home the most for me. For mechanics, I'd say that I'm drawn to JRPGs because I just really like going around doing quests and talking to NPCs with my cute little sprite....
 2. We have similar tastes for dark visual styles and deep narrative backgrounds!!! We generally are drawn to complex characters/relationships in the media that we consume.
-3. The LA and I both share a liking for RPGs!!! We love singleplayer story games in general, and it made me think about all the old horror RPGs I played years ago (Mad Father, Ao Oni, Ib, Witch's House, etc.)
+3. Leah and I both share a liking for RPGs!!! We love singleplayer story games in general, and it made me think about all the old horror RPGs I played years ago (Mad Father, Ao Oni, Ib, Witch's House, etc.)
 
 ### Activity 2
 ![jess tran (gdim 33) - vertical slice breakdown](https://github.com/user-attachments/assets/27132741-7909-4a49-812f-bf8f351fe804)
