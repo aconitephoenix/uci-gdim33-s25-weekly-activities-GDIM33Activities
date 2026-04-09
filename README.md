@@ -12,3 +12,4 @@
 
 
 ## W2
+No devlog this week; check commits!
