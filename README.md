@@ -9,7 +9,13 @@
 
 ### Activity 2
 ![jess tran (gdim 33) - vertical slice breakdown](https://github.com/user-attachments/assets/27132741-7909-4a49-812f-bf8f351fe804)
-
-
 ## W2
 No devlog this week; check commits!
+## W3
+### Activity 1
+<img width="1085" height="914" alt="jess tran (gdim 33) - vertical slice breakdown(2)" src="https://github.com/user-attachments/assets/f3ec8036-3c48-4801-a11a-1e8ce6adf0b5" />
+### Activity 2
+1.
+2.
+3.
+4.
