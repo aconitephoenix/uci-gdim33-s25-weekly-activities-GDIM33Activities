@@ -20,3 +20,13 @@ No devlog this week; check commits!
 2. I used a Debug.Log() node on both of the state transitions and the click event with the walrus. All of these nodes helped me test my graphs at an intermediate step by allowing me to test if the events were triggering properly, and to notice if something wrong was going on with behaviors even when the events were triggering. For example, I had an issue with triggering the walrus's dialogue and the Debug.Log() node told me that it was in fact triggering, so I went to edit the walrusW3 graph and noticed I hadn't been calling the clickNpcEventName event on the gameController object. Without the Debug.Log(), I would've had a much harder time finding exactly where this error was occurring.
 3. I don't believe the Set Cursor Lock State is relevant to my Vertical Slice. My Vertical Slice is a visual novel, and for that reason I'd want the player to be able to move their cursor around even during dialogue in the case they'd like to navigate to the settings via the UI and such...in the case that I decide to move the settings to a key press instead, I would probably lock the cursor during dialogue sections and unlock it for dialogue options and game start/end screens.
 4. I believe the concept of a "game state" might be relevant to my Vertical Slice. The way that I'm thinking of my Vertical Slice right now requires a standard start state, playing state, and end state for the game to be able to loop correctly. I do also believe that I might implement different end states as I'm planning on making branching endings alongside branching dialogue options. This is also just kind of spitballing, but I may or may not also make separate states for dialogue, dialogue selection, and cutscenes if I find that they need to be separated that far.
+## W4
+### Activity 1
+#### Playable Build Stuff
+I have a really barebones dialogue system working right now....  
+Goals: seeing if there's any bugs with the dialogue right now + if it feels smooth enough to click thru
+#### Playtesting Team
+
+#### Playtesting Notes
+
+### Activity 2
