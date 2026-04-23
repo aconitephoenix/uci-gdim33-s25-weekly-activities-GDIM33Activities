@@ -26,7 +26,11 @@ No devlog this week; check commits!
 I have a really barebones dialogue system working right now....  
 Goals: seeing if there's any bugs with the dialogue right now + if it feels smooth enough to click thru
 #### Playtesting Team
-
+Frances Kim, Sebastian Magana, Kaleb Reyes, Rebecca Feng, Landon Her
 #### Playtesting Notes
-
+- they liked red capsule!
+- liked the skip text function!!
 ### Activity 2
+1. Assuming the activity has been finished, a designer should be able to add more dialogue via ScriptableObjects alone without having to go into code. The graph is set up so that buttons and dialogue progress appropriately with player input, so a designer should not have to worry about the logistics behind how the dialogue works and should be able to add dialogue with ease.
+2. There's no limit to the amount of dialogue nodes a designer can make; there could be an infinite amount of dialogue nodes and the only limitation would be the computer's capacity to handle all that dialogue.
+3. The regenerate nodes button basically acts as a "refresh" button for nodes to make sure that all nodes are registered in the game's settings and accessible in graphs.
