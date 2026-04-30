@@ -34,3 +34,18 @@ Frances Kim, Sebastian Magana, Kaleb Reyes, Rebecca Feng, Landon Her
 1. Assuming the activity has been finished, a designer should be able to add more dialogue via ScriptableObjects alone without having to go into code. The graph is set up so that buttons and dialogue progress appropriately with player input, so a designer should not have to worry about the logistics behind how the dialogue works and should be able to add dialogue with ease.
 2. There's no limit to the amount of dialogue nodes a designer can make; there could be an infinite amount of dialogue nodes and the only limitation would be the computer's capacity to handle all that dialogue.
 3. The regenerate nodes button basically acts as a "refresh" button for nodes to make sure that all nodes are registered in the game's settings and accessible in graphs.
+## W5
+### Activity 1
+#### Chosen Feature: Game State Machine
+##### Basic Steps
+1. Set up different states for the game to switch between, Debug.Log() to check that the switch has triggered
+2. Set up the states so that certain UI is enabled/disabled when states are switched
+3. Run through the game to see that all states function
+##### Detailed Steps
+1. Add different script states to the state machine graph to represent the different game states
+2. SM should change state based on whether the game has been started + if the Escape key has been pressed during the game. Test with Debug Log messages
+3. SM should first be able to enable/disable dialogue UI based on whether the game is in the dialogue state. Test by enabling/disabling the game object between transitions
+4. SM should be able to display pause button when player presses the Escape key. Test this while the game is running
+5. SM should disable dialogue progression during the pause screen display. Click around during the pause screen to test if the dialogue UI is disabled correctly
+6. SM should start off in a "game start" state; make sure that the game opens up on the start state when running and leaves the start state when pressing the button on the start screen
+### Activity 2
