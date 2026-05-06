@@ -50,3 +50,6 @@ Frances Kim, Sebastian Magana, Kaleb Reyes, Rebecca Feng, Landon Her
 6. SM should start off in a "game start" state; make sure that the game opens up on the start state when running and leaves the start state when pressing the button on the start screen
 ### Activity 2
 I got the state machine to switch game states based on key presses + button clicks, and got the UI showing up (mostly) properly. I just need to fix when the pause screen goes back to the dialogue and the dialogue needs to type the line again.
+## W6
+### Activity 1
+### Activity 2
