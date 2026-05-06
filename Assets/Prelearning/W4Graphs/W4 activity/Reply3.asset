@@ -15,4 +15,4 @@ MonoBehaviour:
   Line: i hate you
   ReplyOptions:
   - line: oh....
-    nextNode: {fileID: 11400000, guid: f05b2eb533453a1458e365e5f52be821, type: 2}
+    nextNode: {fileID: 11400000, guid: 306ae799735243041a09143b610b28ea, type: 2}

@@ -16,3 +16,5 @@ MonoBehaviour:
   ReplyOptions:
   - line: y
     nextNode: {fileID: 11400000, guid: c9596fb491cb42a49a00c91f95c09024, type: 2}
+  - line: nooooo
+    nextNode: {fileID: 11400000, guid: 28a90326257406940afd776221c00229, type: 2}
