@@ -52,4 +52,21 @@ Frances Kim, Sebastian Magana, Kaleb Reyes, Rebecca Feng, Landon Her
 I got the state machine to switch game states based on key presses + button clicks, and got the UI showing up (mostly) properly. I just need to fix when the pause screen goes back to the dialogue and the dialogue needs to type the line again.
 ## W6
 ### Activity 1
+#### Playtest Build Stuff
+New features:
+- .......the progress bar animates itself .......... 😅
+
+Link: https://cherrycxrnival.itch.io/vertical-slice-test-build-2
+
+Goals:
+- test state machine (bc i havent done that yet)
+- test bugs in progress bar (changing value + anims)
+#### Playtest Notes
+
 ### Activity 2
+1. Why does the Multiply setting of the Blend node make the resulting color darker and less saturated than the input colors?
+Hint 1: The Multiply option literally multiplies the values given, so a vector A = (R1, G1, B1) Blended with a vector B = (R2, G2, B2) with the Multiply option will result in a vector C = (R1*R2, G1*G2, B1*B2).
+Hint 2: recall that we store the RGB channels as 0.0 - 1.0 values.
+2. If we use Multiply to combine Alpha values, will the resulting value be more or less translucent than either of the original values, and why?
+3. When we created the SampleTexture2D node, Unity auto-created the UV0 Node for us to get the UV coordinates for sampling the texture. Where does the shader get these UV values from?
+4. You just learned that you can manipulate colors with math. Does that sound interesting or exciting to you?
