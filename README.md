@@ -65,9 +65,7 @@ Goals:
 - they like my dialogue options.... heh.... cuz my character's a Freak....
 - i need to hella lock in assets....
 ### Activity 2
-1. Why does the Multiply setting of the Blend node make the resulting color darker and less saturated than the input colors?
-Hint 1: The Multiply option literally multiplies the values given, so a vector A = (R1, G1, B1) Blended with a vector B = (R2, G2, B2) with the Multiply option will result in a vector C = (R1*R2, G1*G2, B1*B2).
-Hint 2: recall that we store the RGB channels as 0.0 - 1.0 values.
-2. If we use Multiply to combine Alpha values, will the resulting value be more or less translucent than either of the original values, and why?
-3. When we created the SampleTexture2D node, Unity auto-created the UV0 Node for us to get the UV coordinates for sampling the texture. Where does the shader get these UV values from?
-4. You just learned that you can manipulate colors with math. Does that sound interesting or exciting to you?
+1. The Multiply setting makes the resulting color darker and less saturated than the input colors because it multiplies the values of the first color by the second color. All these values range from 0.0 - 1.0, becoming less saturated and bright -> more saturated and bright as the value increases. So, multipling a value that is less than 1.0 will result in a smaller value, which makes the color either less saturated or darker depending on which value is being multiplied.
+2. The resulting value would be less translucent (???) because the values change like the colors..... yeah.... probably...
+3. The shader gets the UV values from the vertices of the mesh....??? 😅😅😅😅😅
+4. It's pretty interesting! As someone who has dabbled in digital art I was aware of the different blending modes, but I didn't really think about the math that went behind manipulating these colors. I do kind of want to dabble into this more, but I'll have to do some extensive studying.....
