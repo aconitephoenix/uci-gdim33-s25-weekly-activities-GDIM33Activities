@@ -62,7 +62,8 @@ Goals:
 - test state machine (bc i havent done that yet)
 - test bugs in progress bar (changing value + anims)
 #### Playtest Notes
-
+- they like my dialogue options.... heh.... cuz my character's a Freak....
+- i need to hella lock in assets....
 ### Activity 2
 1. Why does the Multiply setting of the Blend node make the resulting color darker and less saturated than the input colors?
 Hint 1: The Multiply option literally multiplies the values given, so a vector A = (R1, G1, B1) Blended with a vector B = (R2, G2, B2) with the Multiply option will result in a vector C = (R1*R2, G1*G2, B1*B2).
