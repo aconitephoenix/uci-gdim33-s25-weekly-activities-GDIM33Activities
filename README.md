@@ -69,3 +69,11 @@ Goals:
 2. The resulting value would be less translucent (???) because the values change like the colors..... yeah.... probably...
 3. The shader gets the UV values from the vertices of the mesh....??? 😅😅😅😅😅
 4. It's pretty interesting! As someone who has dabbled in digital art I was aware of the different blending modes, but I didn't really think about the math that went behind manipulating these colors. I do kind of want to dabble into this more, but I'll have to do some extensive studying.....
+## W7
+1. For our vertex color shader in step (3), where did the data for the Vertex Color node come from?
+2. Since vertex color is stored as data in each vertex of the mesh, why is the color on our shiba from step (3) blended at the edges of different regions of color?
+3. Why is the shiba from step (3), which is colored with vertex color, less detailed than the shiba we rendered with a texture in last week’s activity? Given that vertex color generally results in a less detailed color application than applying a texture, what can you imagine vertex color is useful for?
+4. Based on the color of the shiba in step (4), does anything look wrong with the mesh’s vertex normals?
+5. We used the color output of a shader to visualize a mesh’s vertex normal values in step (4). Name one other piece of vertex data (or any kind of data) you can imagine testing with a debug shader like this, and describe why that might be useful.
+6. Why is there an error in the lighting in step (5) on the back of the Shiba?
+7. Why do you think we set the Blend Mode to Additive for the fire effect in Step (6)?
