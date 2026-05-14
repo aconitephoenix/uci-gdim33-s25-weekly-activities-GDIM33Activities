@@ -70,7 +70,7 @@ Goals:
 3. The shader gets the UV values from the vertices of the mesh....??? 😅😅😅😅😅
 4. It's pretty interesting! As someone who has dabbled in digital art I was aware of the different blending modes, but I didn't really think about the math that went behind manipulating these colors. I do kind of want to dabble into this more, but I'll have to do some extensive studying.....
 ## W7
-1. For our vertex color shader in step (3), where did the data for the Vertex Color node come from?
+1. The data for the vertex node comes from the color data of the mesh.
 2. Since vertex color is stored as data in each vertex of the mesh, why is the color on our shiba from step (3) blended at the edges of different regions of color?
 3. Why is the shiba from step (3), which is colored with vertex color, less detailed than the shiba we rendered with a texture in last week’s activity? Given that vertex color generally results in a less detailed color application than applying a texture, what can you imagine vertex color is useful for?
 4. Based on the color of the shiba in step (4), does anything look wrong with the mesh’s vertex normals?
