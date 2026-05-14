@@ -71,9 +71,9 @@ Goals:
 4. It's pretty interesting! As someone who has dabbled in digital art I was aware of the different blending modes, but I didn't really think about the math that went behind manipulating these colors. I do kind of want to dabble into this more, but I'll have to do some extensive studying.....
 ## W7
 1. The data for the vertex node comes from the color data of the mesh.
-2. Since vertex color is stored as data in each vertex of the mesh, why is the color on our shiba from step (3) blended at the edges of different regions of color?
-3. Why is the shiba from step (3), which is colored with vertex color, less detailed than the shiba we rendered with a texture in last week’s activity? Given that vertex color generally results in a less detailed color application than applying a texture, what can you imagine vertex color is useful for?
-4. Based on the color of the shiba in step (4), does anything look wrong with the mesh’s vertex normals?
-5. We used the color output of a shader to visualize a mesh’s vertex normal values in step (4). Name one other piece of vertex data (or any kind of data) you can imagine testing with a debug shader like this, and describe why that might be useful.
-6. Why is there an error in the lighting in step (5) on the back of the Shiba?
-7. Why do you think we set the Blend Mode to Additive for the fire effect in Step (6)?
+2. The colors are interpolated, meaning that all the fragments will have a blend of colors based on their distance from each vertex, which each has its own color.
+3. The shiba is colored with less detailed than last week's activity because it's taking color data from the vertices and calculating the interpolation based on distance from the vertices, whereas the texture allows a more detailed appearance because it's a painted texture mapped out for the model. I think vertex color might be useful for rendering smaller objects or objects outside the camera should they be rendered...maybe...I'm kinda guessing....
+4. I'm assuming the mesh's vertex normals are weird because the lighting doesn't really make sense based on the colors (it's darker on the wrong side). In other words, the normals are swapped....
+5. I feel like it might be useful for UV data (which is also stored in vertices) to make sure that things are mapped correctly on the mesh.
+6. The surface normals and the light direction vectors are facing each other, which creates a negative dot product and makes the light appear opposite to how it's supposed to.
+7. Additive (I assume) adds color values and makes them appear brighter over whatever surface it's on, which makes the fire appear brighter... and fiery.... heh..
