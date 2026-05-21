@@ -77,3 +77,23 @@ Goals:
 5. I feel like it might be useful for UV data (which is also stored in vertices) to make sure that things are mapped correctly on the mesh.
 6. The surface normals and the light direction vectors are facing each other, which creates a negative dot product and makes the light appear opposite to how it's supposed to.
 7. Additive (I assume) adds color values and makes them appear brighter over whatever surface it's on, which makes the fire appear brighter... and fiery.... heh..
+## w8
+### Activity 1
+#### Playtest Build Stuff
+New features:
+- new sprites!
+
+[Playtest 3 Link](https://cherrycxrnival.itch.io/vertical-slice-test-build-3)
+
+Goals:
+- test transitions from different scenes
+- test sprite changes / any bugs in the sprites
+#### Playtest Notes
+- sprites are cool... and the dialogue..
+- have to actually add content.
+- change the ui to like.... Not the default Unity UI.
+### Activity 2C
+1. Open the Frame Debugger window under Windows >Analysis > Frame Debugger. What's the name of the pass associated with the post-processing effect we created? Other than the name being kinda obvious, how can you tell?
+2. What does the screen look like if the Lerp value is set to 0.5? What about 0? What about 1?
+3. WHY does the screen look like that based on those different Lerp values?
+4. Why does our algorithm for the Lerp amount use (sin(time)+1)/2 instead of just sin(time)? (see instructions for hints)
