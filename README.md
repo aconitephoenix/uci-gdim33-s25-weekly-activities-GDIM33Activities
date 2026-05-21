@@ -93,7 +93,7 @@ Goals:
 - have to actually add content.
 - change the ui to like.... Not the default Unity UI.
 ### Activity 2C
-1. Open the Frame Debugger window under Windows >Analysis > Frame Debugger. What's the name of the pass associated with the post-processing effect we created? Other than the name being kinda obvious, how can you tell?
-2. What does the screen look like if the Lerp value is set to 0.5? What about 0? What about 1?
-3. WHY does the screen look like that based on those different Lerp values?
-4. Why does our algorithm for the Lerp amount use (sin(time)+1)/2 instead of just sin(time)? (see instructions for hints)
+1. The pass is FullScreenPassRenderFeature. The last draw call in the pass shows the post-processing effect being rendered, showing that this pass is the one rendering the post-processing effect.
+2. At 0.5, the texture is partially visible. At 0, the texture is not visible. At 1, the texture is fully visible.
+3. It changes how much % opacity of the texture should be shown from 0-100% based on a 0-1 scale.
+4. The algorithm for the Lerp amount uses (sin(time)+1)/2 instead of just sin(time) because sin(time) goes from values from -1 to 1, whereas (sin(time)+1)/2 goes from 0 to 1, which is the appropriate range for the Lerp algorithm.
