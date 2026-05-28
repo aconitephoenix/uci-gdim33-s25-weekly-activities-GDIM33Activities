@@ -97,3 +97,18 @@ Goals:
 2. At 0.5, the texture is partially visible. At 0, the texture is not visible. At 1, the texture is fully visible.
 3. It changes how much % opacity of the texture should be shown from 0-100% based on a 0-1 scale.
 4. The algorithm for the Lerp amount uses (sin(time)+1)/2 instead of just sin(time) because sin(time) goes from values from -1 to 1, whereas (sin(time)+1)/2 goes from 0 to 1, which is the appropriate range for the Lerp algorithm.
+## W9
+### Activity 1
+Game: Red Dead Redemption 2 (Dead Eye Effect)
+- Post-processing effect
+    - Vignette
+    - Decrease saturation
+    - Increase bloom
+    - Activated with a specific button hold/press to change camera's renderer
+    - Also adjust camera transform for zoom-in
+- Aim focus
+    - Render targets on enemy
+    - Enable the targets on each enemy to be visible to the player
+    - Similar to the outline effect where if mouse over --> show the thingy
+### Activity 2
+[I added some code in C# to change the camera's renderer based on the dialogue line, making it possible to turn on and off the heartbeat effect thing!!! Oh yeah and more dialogue or whatever...](https://github.com/aconitephoenix/VerticalSlice/commit/de1dcbd19b749dfa1dbcf4e3f8af1fc8859ec71f)
