@@ -112,3 +112,4 @@ Game: Red Dead Redemption 2 (Dead Eye Effect)
     - Similar to the outline effect where if mouse over --> show the thingy
 ### Activity 2
 [I added some code in C# to change the camera's renderer based on the dialogue line, making it possible to turn on and off the heartbeat effect thing!!! Oh yeah and more dialogue or whatever...](https://github.com/aconitephoenix/VerticalSlice/commit/de1dcbd19b749dfa1dbcf4e3f8af1fc8859ec71f)
+<img width="1162" height="807" alt="shader" src="https://github.com/user-attachments/assets/4f997b85-f1c2-4194-bc0d-c8e996939d75" />
