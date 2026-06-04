@@ -113,3 +113,36 @@ Game: Red Dead Redemption 2 (Dead Eye Effect)
 ### Activity 2
 [I added some code in C# to change the camera's renderer based on the dialogue line, making it possible to turn on and off the heartbeat effect thing!!! Oh yeah and more dialogue or whatever...](https://github.com/aconitephoenix/VerticalSlice/commit/de1dcbd19b749dfa1dbcf4e3f8af1fc8859ec71f)
 <img width="1162" height="807" alt="shader" src="https://github.com/user-attachments/assets/4f997b85-f1c2-4194-bc0d-c8e996939d75" />
+
+## W10
+### Activity 1
+#### Playtest Build Stuff
+New features:
+- more dialogue!!!
+- bug fixes during play
+- one dialogue node can lead straight to an ending condition
+
+[Playtest 4 Link](https://cherrycxrnival.itch.io/vertical-slice-test-build-4)
+
+Goals:
+- see if there are any other bugs while playing the game
+- see if the effects are working properly
+- check if settings feel good to adjust
+- see if dialogue is Awesome Sauce.... maybe
+#### Playtest Notes
+- they love toxic yuri!
+- i really gotta finish the dialogue. and assets. lock in jess lock in
+### Activity 2
+Planning Strategies:
+- diagrams are really awesome!!!
+    - helps plan what exactly you need to implement into your game in terms of code and stuff
+    - really simplifies the work you need to do and makes things a lot less overwhelming
+- breakdowns are also super awesome!!!!!!
+    - helps make overwhelming tasks way less daunting; helped me out a lot for the gdim 33 project!
+- architecting system for scaling helps make things easier to implement because the more you plan for systems that are easy to add more content in, the easier it is to add that content in the first place!!
+    - also helps with sizing the scope of your game + seeing how far you want to scale it; you might want to make different systems depending on how much content you want to make for the project/if you want to work on it beyond the class!!
+- basically: do all of these ngl because it really helps with scope and makes work feel 10x easier to do
+    - games do not have to be hard to make!! you can make things a lot easier for yourself by outlining what you want to do + what you CAN do in the time limit
+    - the more specific the better!!
+### Activity 3
+[Fixed an issue where both the text speed + volume levels were not set to intended default values; now it can change by clicking the disclaimer button!](https://github.com/aconitephoenix/VerticalSlice/commit/e47c41f94aa03ffb2dd0876d828b0356fb23fb90)
